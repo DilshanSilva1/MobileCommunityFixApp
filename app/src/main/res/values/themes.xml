@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CommunityApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/beige_dark</item>
+        <item name="colorPrimaryVariant">@color/beige_dark</item>
+        <item name="colorOnPrimary">@color/brown_dark</item>
+        <item name="colorSecondary">@color/beige</item>
+        <item name="colorSecondaryVariant">@color/beige_dark</item>
+        <item name="colorOnSecondary">@color/brown_dark</item>
+        <item name="android:windowBackground">@color/beige_light</item>
+        <item name="android:statusBarColor">@color/beige_dark</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">@color/brown_dark</item>
+        <item name="android:textColorSecondary">@color/brown_mid</item>
+    </style>
+
+    <style name="Theme.CommunityApp.Auth" parent="Theme.CommunityApp" />
+
+    <style name="ToolbarTitleStyle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/brown_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

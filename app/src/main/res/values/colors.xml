@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette -->
+    <color name="beige">#E4D5B300</color>
+    <color name="beige_dark">#C9B88A00</color>       <!-- darker beige for toolbar/status bar -->
+    <color name="beige_light">#F2EAD8</color>      <!-- lighter beige for backgrounds -->
+    <color name="brown_dark">#5C3D1E</color>        <!-- dark brown for text on beige -->
+    <color name="brown_mid">#8B5E3C</color>         <!-- medium brown for secondary text -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Status colors -->
+    <color name="status_pending_bg">#FFF3CD</color>
+    <color name="status_pending_text">#856404</color>
+    <color name="status_resolved_bg">#D4EDDA</color>
+    <color name="status_resolved_text">#155724</color>
+    <color name="status_unresolved_bg">#F8D7DA</color>
+    <color name="status_unresolved_text">#721C24</color>
+
+    <!-- Upvote colors -->
+    <color name="upvote_active">#8B5E3C</color>
+    <color name="upvote_inactive">#AAAAAA</color>
+</resources>

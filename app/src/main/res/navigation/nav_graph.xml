@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/postsListFragment">
+
+    <fragment
+        android:id="@+id/postsListFragment"
+        android:name="com.example.communityapp.ui.posts.PostsListFragment"
+        android:label="Community Posts"
+        tools:layout="@layout/fragment_posts_list">
+        <action android:id="@+id/action_postsListFragment_to_createPostFragment"
+            app:destination="@id/createPostFragment" />
+        <action android:id="@+id/action_postsListFragment_to_postDetailFragment"
+            app:destination="@id/postDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createPostFragment"
+        android:name="com.example.communityapp.ui.posts.CreatePostFragment"
+        android:label="New Post"
+        tools:layout="@layout/fragment_create_post" />
+
+    <fragment
+        android:id="@+id/postDetailFragment"
+        android:name="com.example.communityapp.ui.posts.PostDetailFragment"
+        android:label="Post Detail"
+        tools:layout="@layout/fragment_post_detail" />
+
+    <fragment
+        android:id="@+id/myPostsFragment"
+        android:name="com.example.communityapp.ui.posts.MyPostsFragment"
+        android:label="My Posts"
+        tools:layout="@layout/fragment_my_posts">
+        <action android:id="@+id/action_myPostsFragment_to_postDetailFragment"
+            app:destination="@id/postDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/myFavoritesFragment"
+        android:name="com.example.communityapp.ui.posts.MyFavoritesFragment"
+        android:label="My Favorites"
+        tools:layout="@layout/fragment_my_favorites">
+        <action android:id="@+id/action_myFavoritesFragment_to_postDetailFragment"
+            app:destination="@id/postDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.communityapp.ui.posts.ProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

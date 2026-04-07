@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--
+        Exposes app/files/images/ to the camera app via FileProvider.
+        "files-path" maps to Context.getFilesDir() — the app's private internal storage.
+        The camera writes the photo here; no external storage permission needed.
+    -->
+    <files-path
+        name="images"
+        path="images/" />
+</paths>
